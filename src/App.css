@@ -21,6 +21,14 @@
     padding-bottom: 100px;
 }
 
+.mainContainer2 {
+    height: auto;
+    width: 100%;
+    /* padding: -10px; */
+    margin: -850px;
+    padding-bottom: 100px;
+}
+
 .bannerContent {
     position: absolute;
     color: white;
@@ -33,27 +41,35 @@
 }
 
 .newopng {
-    height: 28px;
-    margin: 15px;
+    height: 30px;
+    margin: 20px;
 }
 
 .newoclan {
-    height: 60px;
+    height: 80%;
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
     align-items: center;
-    margin-top: 3px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    margin-left: -9px !important;
+    margin-right: -9px !important;
     background-color: #181B3E;
     border-radius: 10px;
 }
 
 .newoitem {
-    color: #ffffff;
+    display: inline-block;
     font-size: 16px;
-    text-decoration: none;
-    margin: 15px;
-    position: relative;
-    font-family: "Times New Roman";
+    color: #f8bd59;
+    text-align: right;
+    margin-top: -8px;
+    font-family: 'Poppins' !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 30px !important;
+    text-decoration: none !important;
 }
 
 
@@ -89,10 +105,9 @@
 }
 
 .player poster {
-    width: 50px;
-    height: 50px;
     display: flex;
-    border-radius: 25px 25px 0px 0px;
+    align-items: center;
+    /* border-radius: 25px 25px 0px 0px; */
 }
 
 .container {
@@ -107,12 +122,14 @@
     justify-content: center;
 }
 
-.imgbox {}
-
-.text {
-    background-color: #373848;
-    color: white;
+.text_footer {
+    background-color: #181B3E !important;
+    /* color: white; */
     justify-content: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 680 !important;
+    color: rgb(255, 255, 255);
 }
 
 .bottomMenu {
@@ -245,3 +262,40 @@ video {
 /* img.img1 {
     width: 6rem;
 } */
+
+.card-freegifts {
+    background: #59429d !important;
+    padding: 10px;
+    margin-bottom: 8% !important;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+
+  .gift_border {
+    border-right: 1px solid #baa4f6;
+  }
+
+  .banner_text3 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #ffeb28 0%, #ff0002 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .banner_text2 {
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .banner_text1 {
+    display: block;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: -5px;
+  }
