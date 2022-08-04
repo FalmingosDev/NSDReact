@@ -10,7 +10,7 @@ import sunil from "../Videos/sunil-grover.mp4";
 const Video = () => {
   const videoSrc = Dev;
   const poster = Dev1;
-  return (
+  return (<>
     <div className="player">
       <Player
         playsInline
@@ -20,6 +20,8 @@ const Video = () => {
         height="420"
       />
     </div>
+    <p>abc</p>
+    </>
   );
 };
 
