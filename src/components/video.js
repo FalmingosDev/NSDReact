@@ -13,28 +13,31 @@ const Video = () => {
   const videoSrc = Dev;
   const poster = Dev1;
   return (
-    <div className="player">
+    // <div className="player">
+    <Container>
       <center>
-        <Player
+        {/* <Player
           src={videoSrc}
           poster={poster}
           width={400}
           height={300}
           controls={true}
           pip={true}
-        />
-        {/* 
+        /> */}
+        
      <ReactPlayer
+        classname="vid1"
         url={Dev}
         poster={Dev1}
         controls={true}
-        height={720}
-        width={400}
+        // height={720}
+        // width={400}
         pip={true}
         autoplay={true}
-      /> */}
+      />
       </center>
-    </div>
+      </Container>
+    // </div>
 
   );
 };
